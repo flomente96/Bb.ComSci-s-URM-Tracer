@@ -39,6 +39,8 @@ public class CMSC141_MP1 {
         for(int i = 0; i < temp_list.length; i++){
             data.add(Integer.parseInt(temp_list[i]));
         }
+        writer.write(to_string(data));
+        writer.write("\n");
         
 //        System.out.println("-------------------------");
         while (current_command < numberOfLines){
